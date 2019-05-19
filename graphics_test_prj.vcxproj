@@ -19,25 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\exception.h" />
-    <ClInclude Include="include\extgraph.h" />
-    <ClInclude Include="include\gcalloc.h" />
-    <ClInclude Include="include\genlib.h" />
-    <ClInclude Include="include\graphics.h" />
-    <ClInclude Include="include\random.h" />
-    <ClInclude Include="include\simpio.h" />
-    <ClInclude Include="include\strlib.h" />
-    <ClInclude Include="linkedlist.h" />
+    <ClCompile Include="CAD.c" />
+    <ClCompile Include="D:\files\c-big-project\CAD\linkedlist.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CAD.c" />
-    <ClCompile Include="libgraphics\exceptio.c" />
-    <ClCompile Include="libgraphics\genlib.c" />
-    <ClCompile Include="libgraphics\graphics.c" />
-    <ClCompile Include="libgraphics\random.c" />
-    <ClCompile Include="libgraphics\simpio.c" />
-    <ClCompile Include="libgraphics\strlib.c" />
-    <ClCompile Include="linkedlist.c" />
+    <ClInclude Include="D:\files\c-big-project\CAD\linkedlist.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

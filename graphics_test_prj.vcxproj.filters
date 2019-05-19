@@ -14,58 +14,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\exception.h">
-      <Filter>源文件</Filter>
-    </ClInclude>
-    <ClInclude Include="include\extgraph.h">
-      <Filter>源文件</Filter>
-    </ClInclude>
-    <ClInclude Include="include\gcalloc.h">
-      <Filter>源文件</Filter>
-    </ClInclude>
-    <ClInclude Include="include\genlib.h">
-      <Filter>源文件</Filter>
-    </ClInclude>
-    <ClInclude Include="include\graphics.h">
-      <Filter>源文件</Filter>
-    </ClInclude>
-    <ClInclude Include="linkedlist.h">
-      <Filter>源文件</Filter>
-    </ClInclude>
-    <ClInclude Include="include\random.h">
-      <Filter>源文件</Filter>
-    </ClInclude>
-    <ClInclude Include="include\simpio.h">
-      <Filter>源文件</Filter>
-    </ClInclude>
-    <ClInclude Include="include\strlib.h">
-      <Filter>源文件</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="libgraphics\exceptio.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="libgraphics\genlib.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="libgraphics\graphics.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="linkedlist.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="libgraphics\random.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="libgraphics\simpio.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="libgraphics\strlib.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="CAD.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="D:\files\c-big-project\CAD\linkedlist.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\files\c-big-project\CAD\linkedlist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
