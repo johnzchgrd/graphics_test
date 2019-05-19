@@ -15,31 +15,31 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\exception.h">
-      <Filter>头文件</Filter>
+      <Filter>源文件</Filter>
     </ClInclude>
     <ClInclude Include="include\extgraph.h">
-      <Filter>头文件</Filter>
+      <Filter>源文件</Filter>
     </ClInclude>
     <ClInclude Include="include\gcalloc.h">
-      <Filter>头文件</Filter>
+      <Filter>源文件</Filter>
     </ClInclude>
     <ClInclude Include="include\genlib.h">
-      <Filter>头文件</Filter>
+      <Filter>源文件</Filter>
     </ClInclude>
     <ClInclude Include="include\graphics.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="include\random.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="include\simpio.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="include\strlib.h">
-      <Filter>头文件</Filter>
+      <Filter>源文件</Filter>
     </ClInclude>
     <ClInclude Include="linkedlist.h">
-      <Filter>头文件</Filter>
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\random.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\simpio.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\strlib.h">
+      <Filter>源文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -62,6 +62,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="libgraphics\strlib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CAD.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
