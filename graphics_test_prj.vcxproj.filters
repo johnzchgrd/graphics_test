@@ -14,15 +14,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CAD.c">
+    <ClCompile Include="D:\files\c-big-project\CAD\linkedlist.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="D:\files\c-big-project\CAD\linkedlist.c">
+    <ClCompile Include="demo.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="D:\files\c-big-project\CAD\linkedlist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="democad.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

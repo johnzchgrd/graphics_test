@@ -19,11 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CAD.c" />
     <ClCompile Include="D:\files\c-big-project\CAD\linkedlist.c" />
+    <ClCompile Include="demo.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="D:\files\c-big-project\CAD\linkedlist.h" />
+    <ClInclude Include="democad.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
