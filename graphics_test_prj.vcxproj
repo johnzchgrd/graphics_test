@@ -18,6 +18,26 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\exception.h" />
+    <ClInclude Include="include\extgraph.h" />
+    <ClInclude Include="include\gcalloc.h" />
+    <ClInclude Include="include\genlib.h" />
+    <ClInclude Include="include\graphics.h" />
+    <ClInclude Include="include\random.h" />
+    <ClInclude Include="include\simpio.h" />
+    <ClInclude Include="include\strlib.h" />
+    <ClInclude Include="linkedlist.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="libgraphics\exceptio.c" />
+    <ClCompile Include="libgraphics\genlib.c" />
+    <ClCompile Include="libgraphics\graphics.c" />
+    <ClCompile Include="libgraphics\random.c" />
+    <ClCompile Include="libgraphics\simpio.c" />
+    <ClCompile Include="libgraphics\strlib.c" />
+    <ClCompile Include="linkedlist.c" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{21592B35-7119-451F-B112-8069588173A2}</ProjectGuid>
@@ -114,8 +134,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
