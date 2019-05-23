@@ -19,12 +19,30 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="D:\files\c-big-project\CAD\libgraphics\exceptio.c" />
+    <ClCompile Include="D:\files\c-big-project\CAD\libgraphics\genlib.c" />
+    <ClCompile Include="D:\files\c-big-project\CAD\libgraphics\graphics.c" />
+    <ClCompile Include="D:\files\c-big-project\CAD\libgraphics\random.c" />
+    <ClCompile Include="D:\files\c-big-project\CAD\libgraphics\simpio.c" />
+    <ClCompile Include="D:\files\c-big-project\CAD\libgraphics\strlib.c" />
     <ClCompile Include="D:\files\c-big-project\CAD\linkedlist.c" />
     <ClCompile Include="demo.c" />
+    <ClCompile Include="libgraphics\exceptio.c" />
+    <ClCompile Include="libgraphics\genlib.c" />
+    <ClCompile Include="libgraphics\graphics.c" />
+    <ClCompile Include="libgraphics\random.c" />
+    <ClCompile Include="libgraphics\simpio.c" />
+    <ClCompile Include="libgraphics\strlib.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\files\c-big-project\CAD\linkedlist.h" />
-    <ClInclude Include="democad.h" />
+    <ClInclude Include="include\exception.h" />
+    <ClInclude Include="include\extgraph.h" />
+    <ClInclude Include="include\gcalloc.h" />
+    <ClInclude Include="include\genlib.h" />
+    <ClInclude Include="include\graphics.h" />
+    <ClInclude Include="include\random.h" />
+    <ClInclude Include="include\simpio.h" />
+    <ClInclude Include="include\strlib.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
@@ -84,6 +102,8 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\Johnzchgrd\source\repos\http\graphics_test_prj\libgraphics;C:\Users\Johnzchgrd\source\repos\http\graphics_test_prj\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_MBCS;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -92,9 +112,13 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\Johnzchgrd\source\repos\http\graphics_test_prj\include;C:\Users\Johnzchgrd\source\repos\http\graphics_test_prj\libgraphics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_MBCS;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
     </ClCompile>
+    <Link>
+      <EntryPointSymbol>WinMain</EntryPointSymbol>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>

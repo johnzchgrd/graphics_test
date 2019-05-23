@@ -1,7 +1,7 @@
 #include"democad.h"
 
 
-int Main() {
+void Main() {
 
 	int i;
 
